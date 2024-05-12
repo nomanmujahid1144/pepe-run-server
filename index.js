@@ -115,6 +115,6 @@ app.get('/leaderboard', async (req, res) => {
 
 console.log()
 
-const port = process.env.PORT || 9001; // Use the PORT environment variable if available, otherwise default to 9001
+const port = process.env.PORT; // Use the PORT environment variable if available, otherwise default to 9001
 app.listen(port, () => console.log(`Server ready on vercel port ${port}.`));
 
